@@ -1,0 +1,79 @@
+/* CSS Document */
+
+body{
+	background:url(../assets/BG2.png);
+	background-size:cover;
+}
+
+.tab-overlay img
+{
+	position:absolute;
+	width:80%;
+	z-index:1000;
+}
+
+.main-title
+{
+	padding-top: 20px;
+}
+.main-title img
+{
+	position:relative;
+	left: -5px;
+	width: 75%;
+	
+}
+
+.tag-title
+{
+	padding-top: 20px;
+}
+
+.tag-title h1
+{
+	font-size:56px;
+}
+
+.notice
+{
+	padding-top: 100px;
+}
+
+.notice p
+{
+	color:white;
+}
+
+.social-header .social-btn
+{
+	list-style:none;
+	padding-top: 20px;
+}
+
+.social-btn li
+{
+	display: inline;
+	padding-left: 10px;
+}
+
+.social-btn li img
+{
+	width: 40px;
+}
+
+#tab-inner
+{
+	position:relative;
+}
+
+#tab-slideshow
+{	padding-top:6%;
+	width:66%;
+	margin-left:9%;
+}
+
+#tab-slideshow .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
